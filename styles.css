@@ -5,18 +5,22 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    background-color: #111; /* Dark blue-black background */
+    color: #fff; /* White text */
 }
 
-header {
-    background-color: #333;
-    color: #fff;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    padding: 1rem 0;
 }
 
-header h1 {
-    margin: 0;
+.name {
+    margin-top: 20px;
     font-size: 2.5rem;
+    font-weight: bold;
+    text-align: left;
 }
 
 .about {
@@ -25,27 +29,41 @@ header h1 {
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 1rem 0;
 }
 
-footer ul {
+.social-buttons {
     list-style-type: none;
     padding: 0;
+    margin-top: 20px;
 }
 
-footer ul li {
-    display: inline;
+.social-buttons li {
+    display: inline-block;
     margin: 0 10px;
 }
 
-footer ul li a {
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333; /* Dark background for social icons */
     color: #fff;
+    text-align: center;
     text-decoration: none;
+    border-radius: 50%;
 }
 
-footer ul li a:hover {
-    text-decoration: underline;
+.social-icon:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 0.8rem;
 }
