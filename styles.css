@@ -11,15 +11,19 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 105px;
+    margin-top: 20px;
 }
 
 .name {
-    margin-top: 20px;
     font-size: 2.5rem;
     font-weight: bold;
-    text-align: left;
-    margin-left: 13.8%;
     word-spacing: 2px;
     letter-spacing: 3.5px;
 }
@@ -32,6 +36,50 @@ body {
     line-height: 2;
     word-spacing: 1.5px;
     letter-spacing: 2px;
+}
+
+.projects-button {
+    background-color: #555; /* Darker background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 200px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.projects-button:hover {
+    background-color: #777; /* Slightly lighter on hover */
+}
+
+.project-list {
+    padding: 2rem;
+    text-align: left;
+    font-size: 1.2rem; /* Increased font size */
+    margin-left: 10%;
+    line-height: 2;
+    word-spacing: 1.5px;
+    letter-spacing: 2px;
+}
+
+.project-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.project-list li {
+    margin-bottom: 10px;
+}
+
+.project-list a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.project-list a:hover {
+    color: #ccc; /* Slightly lighter on hover */
 }
 
 footer {
@@ -48,7 +96,6 @@ footer {
     list-style-type: none;
     padding: 0;
     margin-top: 20px;
-    
 }
 
 .social-buttons li {
